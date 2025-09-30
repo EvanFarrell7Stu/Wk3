@@ -1,5 +1,7 @@
 package ie.atu;
 
+import java.util.Scanner;
+
 public class Calculator
 {
     public int add(int FirstNumber, int SecondNumber) {
@@ -11,6 +13,10 @@ public class Calculator
         return FirstNumber - SecondNumber;
     }
     //Subtracts one number from another
+
+
+
+
 }
 
 
