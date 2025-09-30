@@ -14,7 +14,11 @@ public class Calculator
     }
     //Subtracts one number from another
 
+    public int multiply(int FirstNumber, int SecondNumber) {
+        return FirstNumber * SecondNumber;
+    }
 
+    //multiply two numbers
 
 
 }
