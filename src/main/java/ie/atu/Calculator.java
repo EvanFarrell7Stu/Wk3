@@ -7,4 +7,10 @@ public class Calculator
         return FirstNumber + SecondNumber;
     }
     //Adds two numbers
+    public int subtract(int FirstNumber, int SecondNumber) {
+        return FirstNumber - SecondNumber;
+    }
+    //Subtracts one number from another
 }
+
+
