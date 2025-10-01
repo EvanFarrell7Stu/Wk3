@@ -20,6 +20,21 @@ public class Calculator
 
     //multiply two numbers
 
+    public int divide(int FirstNumber, int SecondNumber) {
+
+        if(SecondNumber==0){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("You can't divide by zero");
+            System.out.println("Re-enter second number");
+            SecondNumber=sc.nextInt();
+            return FirstNumber/ SecondNumber;}
+        else{
+            return FirstNumber / SecondNumber;
+        }
+
+    }
+    //divide first number by the second
+
 
 }
 
