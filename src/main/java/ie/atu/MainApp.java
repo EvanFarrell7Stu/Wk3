@@ -40,6 +40,7 @@ public class MainApp
             }
             case "power" -> {
                 yield calc.power(firstNumber, secondNumber);
+
             }
             default ->  {
                 System.out.println("Invalid input");

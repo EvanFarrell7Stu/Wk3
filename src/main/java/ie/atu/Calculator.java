@@ -4,25 +4,25 @@ import java.util.Scanner;
 
 public class Calculator
 {
-    public double add(int FirstNumber, int SecondNumber) {
+    public double add(int FirstNumber, int SecondNumber) {//add
 
         return FirstNumber + SecondNumber;
     }
     //Adds two numbers
-    public double subtract(int FirstNumber, int SecondNumber) {
+    public double subtract(int FirstNumber, int SecondNumber) {//subtract
 
         return FirstNumber - SecondNumber;
     }
     //Subtracts one number from another
 
-    public double multiply(int FirstNumber, int SecondNumber) {
+    public double multiply(int FirstNumber, int SecondNumber) {//multiply
 
         return FirstNumber * SecondNumber;
     }
 
     //multiply two numbers
 
-    public double divide(int FirstNumber, int SecondNumber) {
+    public double divide(int FirstNumber, int SecondNumber) {//divide
 
         if(SecondNumber==0){
             Scanner sc = new Scanner(System.in);
@@ -37,14 +37,15 @@ public class Calculator
     }
 
     //divide first number by the second
-    public double modulo(int FirstNumber, int SecondNumber) {
+    public double modulo(int FirstNumber, int SecondNumber) {//modulo
 
         return FirstNumber % SecondNumber;
     }
     //get remainder/perform modulo operation
 
-    public double power(int FirstNumber, int SecondNumber) {
+    public double power(int FirstNumber, int SecondNumber) {//power
         return Math.pow(FirstNumber, SecondNumber);
+
     }
 
 }
