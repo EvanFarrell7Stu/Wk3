@@ -35,6 +35,9 @@ public class MainApp
             case  "divide" -> {
                 yield calc.divide(firstNumber, secondNumber);
             }
+            case "modulo" -> {
+                yield calc.modulo(firstNumber, secondNumber);
+            }
             default ->  {
                 System.out.println("Invalid input");
                 yield 0;

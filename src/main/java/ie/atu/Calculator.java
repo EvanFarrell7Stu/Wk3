@@ -33,7 +33,13 @@ public class Calculator
         }
 
     }
+
     //divide first number by the second
+    public int modulo(int FirstNumber, int SecondNumber) {
+        return FirstNumber % SecondNumber;
+    }
+    //get remainder/perform modulo operation
+
 
 
 }
