@@ -31,6 +31,10 @@ public class MainApp
             case "multiply" -> {
                 yield calc.multiply(firstNumber, secondNumber);
             }
+
+            case  "divide" -> {
+                yield calc.divide(firstNumber, secondNumber);
+            }
             default ->  {
                 System.out.println("Invalid input");
                 yield 0;
