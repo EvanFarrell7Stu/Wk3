@@ -9,6 +9,7 @@ public class MainApp
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Select operator: ");
+        System.out.println("add\nsubtract\nmultiply\ndivide\nmodulo\npower");
         String operation = scan.next();
 
         System.out.println("Please enter the first number:");
