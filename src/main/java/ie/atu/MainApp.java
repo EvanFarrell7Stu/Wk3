@@ -17,7 +17,7 @@ public class MainApp
         int secondNumber = scan.nextInt();
 
         Calculator calc  = new Calculator();
-        int result;
+        double result;
         result=switch(operation) {
 
             case "add" ->{
@@ -37,6 +37,9 @@ public class MainApp
             }
             case "modulo" -> {
                 yield calc.modulo(firstNumber, secondNumber);
+            }
+            case "power" -> {
+                yield calc.power(firstNumber, secondNumber);
             }
             default ->  {
                 System.out.println("Invalid input");
